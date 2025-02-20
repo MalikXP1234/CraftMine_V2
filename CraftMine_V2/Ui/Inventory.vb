@@ -51,7 +51,7 @@ Public Class Inventory
             pic9.Image = My.Resources.Iron_Pick
         End If
 
-        If goldpick = True Then
+        If goldpick = True Then ' This is currently brocken, Il need to fix this in a later date
             'pic10.Image = My.Resources.Golden_Pick
         End If
 

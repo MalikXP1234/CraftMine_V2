@@ -46,5 +46,7 @@
         Coal8.Adding(Me, 603, 568)
         Coal9.Adding(Me, 629, 680)
 
+        ' More added content
+
     End Sub
 End Class
