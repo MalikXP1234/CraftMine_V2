@@ -1,0 +1,507 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F47D5730-7807-4378-B657-5C2082411991}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>CraftMine_V2.My.MyApplication</StartupObject>
+    <RootNamespace>CraftMine_V2</RootNamespace>
+    <AssemblyName>CraftMine_V2</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>CraftMine_V2.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>CraftMine_V2.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Maps\Beach.Designer.vb">
+      <DependentUpon>Beach.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Maps\Beach.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Data\CraftMine_Events.vb" />
+    <Compile Include="Data\CraftMine_Subroutines.vb" />
+    <Compile Include="Maps\Forest.Designer.vb">
+      <DependentUpon>Forest.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Maps\Forest.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Maps\GrassLand.Designer.vb">
+      <DependentUpon>GrassLand.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Maps\GrassLand.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ui\Inventory.designer.vb">
+      <DependentUpon>Inventory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Ui\Inventory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ui\LeaderBoard.designer.vb">
+      <DependentUpon>LeaderBoard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Ui\LeaderBoard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ui\Login.designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Ui\Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ui\Main Menu.designer.vb">
+      <DependentUpon>Main Menu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Ui\Main Menu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Maps\Mountains.Designer.vb">
+      <DependentUpon>Mountains.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Maps\Mountains.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Data\CraftMine_OOP.vb" />
+    <Compile Include="Ui\Play Menu.designer.vb">
+      <DependentUpon>Play Menu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Ui\Play Menu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Maps\SnowLand.Designer.vb">
+      <DependentUpon>SnowLand.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Maps\SnowLand.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Maps\Beach.resx">
+      <DependentUpon>Beach.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Maps\Forest.resx">
+      <DependentUpon>Forest.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Maps\GrassLand.resx">
+      <DependentUpon>GrassLand.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ui\Inventory.resx">
+      <DependentUpon>Inventory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ui\LeaderBoard.resx">
+      <DependentUpon>LeaderBoard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ui\Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ui\Main Menu.resx">
+      <DependentUpon>Main Menu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Maps\Mountains.resx">
+      <DependentUpon>Mountains.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ui\Play Menu.resx">
+      <DependentUpon>Play Menu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Maps\SnowLand.resx">
+      <DependentUpon>SnowLand.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mountains1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Normal Rock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Normal Rock1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Orange_PressurePlate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Orange_PressurePlate1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Plain Beach Tree.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Plain Beach Tree1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Plain Tree.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Plain Tree1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Red_PressurePlate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Red_PressurePlate1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Right Character.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Right Character1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ship.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ship1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shipluffy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shipluffy1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sign_image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sign_image1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SnowLand.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SnowLand1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Stone Pick.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Stone Pick1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Stone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Stone1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\White Fruit Tree.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\White Fruit Tree1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\White Plain Tree.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\White Plain Tree1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wood.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wood1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wooden Armor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wooden Armor1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wooden Pickaxe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wooden Pickaxe1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wooden Sword.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wooden Sword1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Yellow_PressurePlate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Yellow_PressurePlate1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Anvil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Anvil1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Back Character.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Back Character1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Beach Node.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Beach Node1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Beach.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Beach1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Blue_PressurePlate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Blue_PressurePlate1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Broke ship.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Broke ship1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Coal Node.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Coal Node1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Coal Ore.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Coal Ore1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Crafting Table.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Crafting Table1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dark Fruit Tree.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dark Fruit Tree1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dark Plain tree.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dark Plain tree1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Forest.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Forest1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Front Character.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Front Character1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fruit Tree.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fruit Tree1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Furnace.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Furnace1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gold Bar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gold Bar1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gold Node.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gold Node1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gold Ore.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gold Ore1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Golden Armor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Golden Armor1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Golden Axe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Golden Axe1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Golden Sword.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Golden Sword1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GrassLand.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GrassLand1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Green.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Green_PressurePlate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Green_PressurePlate1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Green1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Iron Armor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Iron Armor1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Iron Bar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Iron Bar1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Iron Node.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Iron Node1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Iron Ore.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Iron Ore1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Iron Pick.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Iron Pick1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Left Character.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Left Character1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mountains.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
