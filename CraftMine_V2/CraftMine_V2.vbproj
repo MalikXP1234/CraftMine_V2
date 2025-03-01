@@ -204,253 +204,70 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Mountains1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Normal Rock.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Normal Rock1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Orange_PressurePlate.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Orange_PressurePlate1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Plain Beach Tree.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Plain Beach Tree1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Plain Tree.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Plain Tree1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Red_PressurePlate.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Red_PressurePlate1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Right Character.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Right Character1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Ship.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Ship1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Shipluffy.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Shipluffy1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Sign_image.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Sign_image1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\SnowLand.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\SnowLand1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Stone Pick.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Stone Pick1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Stone.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Stone1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\White Fruit Tree.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\White Fruit Tree1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\White Plain Tree.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\White Plain Tree1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Wood.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Wood1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Wooden Armor.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Wooden Armor1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Wooden Pickaxe.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Wooden Pickaxe1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Wooden Sword.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Wooden Sword1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Yellow_PressurePlate.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Yellow_PressurePlate1.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\Anvil.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Anvil1.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Back Character.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Back Character1.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\Beach Node.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Beach Node1.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Beach.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Beach1.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\Blue_PressurePlate.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Blue_PressurePlate1.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Broke ship.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Broke ship1.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\Coal Node.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Coal Node1.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Coal Ore.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Coal Ore1.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\Crafting Table.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Crafting Table1.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Dark Fruit Tree.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Dark Fruit Tree1.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\Dark Plain tree.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Dark Plain tree1.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Forest.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Forest1.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\Front Character.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Front Character1.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Fruit Tree.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Fruit Tree1.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\Furnace.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Furnace1.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Gold Bar.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Gold Bar1.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\Gold Node.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Gold Node1.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Gold Ore.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Gold Ore1.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\Golden Armor.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Golden Armor1.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Golden Axe.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Golden Axe1.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\Golden Sword.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Golden Sword1.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\GrassLand.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\GrassLand1.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Green.png" />
@@ -459,49 +276,82 @@
     <None Include="Resources\Green_PressurePlate.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Green_PressurePlate1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Green1.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\Iron Armor.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Iron Armor1.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Iron Bar.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Iron Bar1.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\Iron Node.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Iron Node1.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Iron Ore.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Iron Ore1.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\Iron Pick.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Iron Pick1.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Left Character.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Left Character1.png" />
+    <None Include="Resources\Mountains.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Mountains.png" />
+    <None Include="Resources\Normal Rock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Orange_PressurePlate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Plain Beach Tree.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Plain Tree.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Red_PressurePlate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Right Character.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ship.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shipluffy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sign_image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SnowLand.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Stone Pick.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Stone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\White Fruit Tree.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\White Plain Tree.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wood.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wooden Armor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wooden Pickaxe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wooden Sword.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Yellow_PressurePlate.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
